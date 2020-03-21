@@ -9,7 +9,7 @@ Copyright (C) 2018 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 ```
-    * If you're not getting the above output (**_gcc_** is not installed) then execute this in bash: 
+* If you're not getting the above output (**_gcc_** is not installed) then execute this in bash: 
 ```bash
 sudo apt-get install gcc 
 ```
