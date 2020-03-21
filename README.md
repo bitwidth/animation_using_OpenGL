@@ -14,7 +14,8 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```bash
 sudo apt-get install gcc codeblocks libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
-    * The code above installs: **gcc**, **codeblocks**, and **OpenGL**  
+      
+   * The code above installs: **gcc**, **codeblocks**, and **OpenGL**  
   
 * Try compiling and running this code in codeblocks:
 ```cpp
