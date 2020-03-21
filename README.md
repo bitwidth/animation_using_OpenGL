@@ -3,24 +3,19 @@
 * Make sure that **_gcc_** is installed on your system before proceeding further.(It *should* be installed by default unless something was done by the user.)
     * Execute any one in bash: ` gcc --version `  **or**  ` g++ --version `  **or**  ` cc --version `
     * If you get output like this, you can move to further steps: 
-```bash
+```
 cc (Ubuntu 8.3.0-6ubuntu1) 8.3.0
 Copyright (C) 2018 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 ```
-* If you're not getting the above output (**_gcc_** is not installed) then execute this in bash: 
+
+* Quickly install everything using :
 ```bash
-sudo apt-get install gcc 
+sudo apt-get install gcc codeblocks libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
-* Install codeblocks using: 
-```bash
-sudo apt-get install codeblocks 
-```
-* Install GL library:
-```bash
-sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev 
-```
+    * The code above installs: **gcc**, **codeblocks**, and **OpenGL**  
+  
 * Try compiling and running this code in codeblocks:
 ```cpp
 #include<GL/glut.h>
